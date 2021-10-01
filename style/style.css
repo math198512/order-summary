@@ -5,3 +5,12 @@ body {
 p {
   font-size: 16px;
 }
+
+.center {
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: large;
+}
