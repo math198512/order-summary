@@ -112,3 +112,33 @@ p {
 .icon {
   margin-right: 15px;
 }
+
+@media only screen and (max-width: 375px) {
+  .card {
+    width: 90%;
+    border-radius: 15px;
+    display: grid;
+    height: 40rem;
+  }
+  .img-hero {
+    grid-area: image;
+    width: 100%;
+  }
+  .container {
+    width: 90%;
+
+    padding: 0.5rem;
+    margin: auto;
+    /* margin-left: 0.5rem;
+    margin-right: 0.5rem; */
+  }
+  .change {
+    font-weight: 900;
+    padding: auto;
+    font-size: 0.9rem;
+
+    transform: translateY(14px) translateX(-17px);
+
+    /* transform: ; */
+  }
+}
