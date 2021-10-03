@@ -2,6 +2,8 @@ body {
   font-family: "red hat display";
   background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(228, 33%, 94%);
 }
 
 p {
@@ -34,9 +36,9 @@ p {
   width: 25rem;
   border-radius: 15px;
   display: grid;
-  height: 40rem;
+  height: 42rem;
   grid-template-columns: auto;
-  grid-template-rows: 40% auto;
+  grid-template-rows: 39% auto;
   grid-template-areas: "image" "text";
 }
 
@@ -82,7 +84,7 @@ p {
 }
 .container {
   background-color: hsl(225, 100%, 98%);
-  border-radius: 5px;
+  border-radius: 8px;
   display: grid;
   grid-template-columns: auto 60% auto;
   padding: 1.5rem;
