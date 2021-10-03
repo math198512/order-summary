@@ -99,7 +99,10 @@ p {
   color: hsl(224, 23%, 55%);
 }
 .change {
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
   text-decoration: underline;
+  transform: translateY(10px);
 }
 .cancel {
   text-align: center;
